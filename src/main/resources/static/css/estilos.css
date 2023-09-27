@@ -1,0 +1,80 @@
+/* 
+    Created on : 27 sept 2023, 11:11:45
+    Author     : Usuario
+*/
+
+#contenidoInicio{
+    position: absolute;
+    height: 81%;
+    width: 100%;
+    top: 12%;
+    left: 0%;    
+    background-color: white;
+    padding: 10px;
+}
+
+.titulo{
+    color: black;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 80px;
+    text-align: center;
+}
+
+.subtitulo{
+    color: black;
+    font-weight: normal;
+    font-family: inherit;
+    font-size: 25px;
+    text-align: center;
+    line-height: 0px;
+}
+
+#contenidoInfo{
+    position: absolute;
+    height: 50%;
+    width: 40%;
+    top: 30%;
+    left: 7%;   
+    background-color: white;
+    padding: 30px;
+}
+
+#contenidoImg{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 32%;
+    left: 58%;    
+    background-color: white;
+    padding: 30px;
+}
+
+#piePagina {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: disc; 
+    padding-left: 90px;
+}
+
+ul li {
+    font-size: 20px; 
+    color: #333;
+    margin-bottom: 30px; 
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+

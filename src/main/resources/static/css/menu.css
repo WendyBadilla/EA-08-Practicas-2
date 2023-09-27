@@ -1,0 +1,70 @@
+/* 
+    Created on : 27 sept 2023, 10:50:40
+    Author     : Usuario
+*/
+body{
+    font-family: sans-serif;
+    padding: 45px 20px 0px;
+}
+
+.header{
+    background-color: #000000;
+    height: 9%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.nav{
+    display: flex;
+    max-width: 990px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-img{
+    transform: scale(1);
+    height: 50%;
+    width: 10%;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0 0px;
+    line-height: 37px;
+}
+
+.nav-menu{
+    display: flex;
+    margin-left: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 20px;
+    margin: 0 18px;
+    line-height: 60px;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.nav-menu-link:hover{
+    background-color: #CBCBCB;
+    transition: 0.7s;
+}
