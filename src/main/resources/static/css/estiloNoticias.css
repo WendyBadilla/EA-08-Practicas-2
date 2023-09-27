@@ -1,0 +1,46 @@
+/* 
+    Created on : 27 sept 2023, 15:58:50
+    Author     : Usuario
+*/
+
+.encabezado {
+    background-color: #DA1C25;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 60px;
+    width: 60%; 
+    margin: 0 auto; 
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.noticia-item {
+    border: 1px solid #000000;
+    background-color: #EFEFEF;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: serif;
+}
+
+.noticia-titulo {
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.noticia {
+    font-size: 16px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.noticia-fecha {
+    font-size: 14px;
+    color: #919191;
+}
