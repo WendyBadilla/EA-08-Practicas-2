@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estiloNoticias.css" rel="stylesheet" type="text/css"/>
         <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
@@ -25,20 +26,33 @@
                 </ul>
             </nav>
         </header>
-        <section id="contenidoInicio">        
-            <h1 class="titulo">Compras</h1> 
-            <section id="contenidoInfo">
-                <font style="color: red; font-size: 20px">Los miembros obtienen envío gratis en pedidos de $50+</font><br><br>
-                <font style="font-size: 20px">Conviértase en miembro de <a href="inicio.html" style="color: black">The Shoe Box</a> para obtener envío rápido y gratuito en pedidos superiores a $50 </font><br><br><br><br>
-                <label>Nombre:</label><input type="text" name="nombre" placeholder="Digite su nombre"/><br><br>
-                <label>Apellido:</label><input type="text" name="apellido" placeholder="Digite su apellido"/><br><br>
-                <label>Correo:</label><input type="email" name="correo" placeholder="xxx@zzz.yyy"/><br><br><br>
-                <input type="submit" value="Enviar" style="border-radius: 30px; color: white; background-color: black"/><br>
-             </section>      
-            <section id="contenidoImg">
-                <iframe width="600" height="400" src="https://www.youtube.com/embed/zRCDvrFp_R4?si=qLhevsrPOACHWjZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </section>                   
+        <section id="contenidoInicio">
+            <h1 class="titulo">Deja un Comentario</h1> 
+            <form action="procesar_comentario.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required><br><br>
+
+                <label for="comentario">Comentario:</label><br>
+                <textarea id="comentario" name="comentario" rows="8" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Enviar Comentario">
+            </form>
+
+            <h2 style="color: graytext">Comentarios Recientes</h2>
+            
+            <div class="comentario">
+                <h3>Wendy Badilla</h3>
+                <p>Buena página &#128522 &#128522</p>
+            </div>
+            <div class="comentario">
+                <h3>Pedro Campos</h3>
+                <p>Siempre con buenos descuentos &#11088</p>
+            </div>
         </section>
         <footer id="piePagina">Derechos reservados &COPY;2023</footer>
     </body>
 </html>
+
